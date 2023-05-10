@@ -1,0 +1,130 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getABC",
+				"outputs": [
+					{
+						"internalType": "enum ENUM.Food",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum ENUM.Food",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum ENUM.Food",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum ENUM.Food",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getABC2",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setB",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setC",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setD",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/3_enum.sol": "ENUM"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_enum.sol": {
+			"keccak256": "0x62aaa27cab703644c1fc824b8a52f4072c2e3df0c2fb95e0d40f61efc0bda732",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://565cb61a1e643e0f7d3e10e01efde41a193585c0b92299a77481a8199eee2ac1",
+				"dweb:/ipfs/QmNoM6iFkM28Au6ukAxuqrwmTyx8rViJzW8134LXLa4fVY"
+			]
+		}
+	},
+	"version": 1
+}
